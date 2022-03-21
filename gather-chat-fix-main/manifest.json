@@ -1,0 +1,13 @@
+{
+  "name": "Gather Chat Bug Fix",
+  "description": "Gather chat lagging bug fix",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Click to show an alert"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
